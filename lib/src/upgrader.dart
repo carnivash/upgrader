@@ -246,7 +246,7 @@ class Upgrader {
   }
 
   String message() {
-    return 'A new version of ${appName()} is available! Version ${currentAppStoreVersion()} is now available-you have ${currentInstalledVersion()}.';
+    return 'Uma nova versão do seu app Thinkseg está disponível na App Store! Versão ${currentAppStoreVersion()}, sua versão atual é: ${currentInstalledVersion()}.';
   }
 
   void checkVersion({@required BuildContext context}) {
